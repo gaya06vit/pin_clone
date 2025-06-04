@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pinterest Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <header>
+    <nav class="flex items-center gap-4 p-4 bg-white shadow-md">
+      <div class="text-red-600 font-bold text-2xl">Pinterest</div>
+      <input type="text" placeholder="Search" class="flex-1 px-4 py-2 rounded-full border border-gray-300" />
+      <div class="flex gap-4">
+        <a href="#" class="text-gray-700">Home</a>
+        <a href="#" class="text-gray-700">Today</a>
+        <a href="#" class="text-gray-700">Notifications</a>
+        <a href="#" class="text-gray-700">Profile</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="columns-2 md:columns-3 lg:columns-4 gap-4 p-4 space-y-4">
+    <div class="break-inside-avoid mb-4 bg-white rounded-xl overflow-hidden shadow">
+      <img src="https://source.unsplash.com/random/300x400" alt="" class="w-full" />
+    </div>
+    <div class="break-inside-avoid mb-4 bg-white rounded-xl overflow-hidden shadow">
+      <img src="https://source.unsplash.com/random/300x500" alt="" class="w-full" />
+    </div>
+  </main>
+</body>
+</html>
